@@ -126,7 +126,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: normal;
   color: #afafaf;
 }
 
@@ -350,6 +350,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  margin-top: 20px;
 }
 
 .header-area .main-nav .logo {
@@ -1555,6 +1556,11 @@ Portfolio
   font-size: 15px;
   color: #afafaf;
   transition: all .3s;
+}
+
+.portfolio-item .down-content span:nth-child(2) {
+  color: #464646;
+  font-weight: bold;
 }
 
 .our-portfolio .owl-nav {
