@@ -2136,6 +2136,9 @@ responsive
   .main-banner .left-content p {
     margin-right: 0;
   }
+  #about {
+    padding-top: 70px;
+  }
   .about-right-content p {
     text-align: center;
   }
