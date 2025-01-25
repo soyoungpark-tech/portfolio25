@@ -1386,6 +1386,12 @@ Services Style
   font-weight: 400;
 }
 
+.skill-nacc-img .right-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 
 /* 
@@ -2111,5 +2117,38 @@ responsive
   }
   form#contact {
     padding: 30px;
+  }
+}
+
+@media (max-width: 465px) {
+  .pre-header {
+    display: none;
+  }
+  .header-area {
+    height: 50px;
+  }
+  .header-area .main-nav .menu-trigger {
+    top: 25px;
+  }
+  .main-banner {
+    padding: 150px 0px 30px 0px;
+  }
+  .main-banner .left-content p {
+    margin-right: 0;
+  }
+  .about-right-content p {
+    text-align: center;
+  }
+  .about-right-content .row .col-lg-4.col-sm-4 {
+    width: 50%;
+  }
+  .about-right-content .row .col-lg-4.col-sm-4:nth-child(3) {
+    width: 100%;
+  }
+  .services {
+    padding-top: 60px;
+  }
+  .services .naccs .menu div {
+    width: 25%;
   }
 }
